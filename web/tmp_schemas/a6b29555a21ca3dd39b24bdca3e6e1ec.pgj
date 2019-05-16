@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PowerGrid name="" voltageA="240" voltageB="240" voltageC="240" totalLoadChange="1" totalKzapChange="0" totalDays="30">
+	<lines>
+		<PGLine id="line_source" startNode="0" finishNode="c276e2347ae824dee280af96185abcd0" length="0.001" intersection="1000" intersectionNeutral="1000" inductiveResistance="0.1" />
+		<PGLine id="4878fc26e1fd4a93ce2a87921c9391ba" startNode="c276e2347ae824dee280af96185abcd0" finishNode="938b15840e3b600ac09a44017b569efe" length="0" intersection="0" intersectionNeutral="0" inductiveResistance="0" />
+		<PGLine id="fd87b10945660aaa6083ee4cceeb49c9" startNode="484b304261accd219d7c644cdde6c61e" finishNode="938b15840e3b600ac09a44017b569efe" length="0" intersection="0" intersectionNeutral="0" inductiveResistance="0" />
+	</lines>
+	<loads>
+		<PGLoad id="660ab93f63efb045ffa6e31c7d6076ff" placement="" node="484b304261accd219d7c644cdde6c61e" descentLength="0" intersection="0" power="0" cosfi="0" Kzap="0" phase="0" />
+	</loads>
+</PowerGrid>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PowerGrid name="---" voltageA="240" voltageB="240" voltageC="240" totalLoadChange="1" totalKzapChange="0" totalDays="30">
+	<lines>
+		<PGLine name="line_source" startNode="0" finishNode="node_a1e30514137a906e412a21f72679226e" length="0.001" intersection="1000" intersectionNeutral="1000" inductiveResistance="0.1" />
+		<PGLine name="line_1a5681707bff98b3ba8e4bc407473746" startNode="node_a1e30514137a906e412a21f72679226e" finishNode="node_0670890c45dc89fe26c7c069269df374" length="25" intersection="16" intersectionNeutral="10" inductiveResistance="0.1" />
+		<PGLine name="line_e8763ec9b23aa2e03eeab6c65314ba20" startNode="node_a1e30514137a906e412a21f72679226e" finishNode="node_2e84f55bdf9af9aa0a3ed8d7d48940ec" length="1000" intersection="25" intersectionNeutral="16" inductiveResistance="0.1" />
+	</lines>
+	<loads>
+		<PGLoad name="load_caa4e61da9e7d2580b8b5c88dc41933b" placement="" node="node_a1e30514137a906e412a21f72679226e" descentLength="7" intersection="10" power="3" cosfi="0.8" Kzap="0.5" phase="0" />
+		<PGLoad name="load_a06b8e538cdd0a9b6304045d88c6ba5b" placement="" node="node_2e84f55bdf9af9aa0a3ed8d7d48940ec" descentLength="15" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="2" />
+		<PGLoad name="load_6eb350cf044977119911e644765b35e2" placement="" node="node_a1e30514137a906e412a21f72679226e" descentLength="12" intersection="12" power="2.5" cosfi="0.8" Kzap="0.5" phase="1" />
+		<PGLoad name="load_26d764b30a900e3999349469b498f2e5" placement="" node="node_0670890c45dc89fe26c7c069269df374" descentLength="10" intersection="14" power="1.5" cosfi="0.8" Kzap="0.5" phase="0" />
+	</loads>
+</PowerGrid>

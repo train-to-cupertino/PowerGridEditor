@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PowerGrid name="Новая схема" voltageA="240" voltageB="240" voltageC="240" totalLoadChange="1" totalKzapChange="0" totalDays="30">
+	<lines>
+	</lines>
+	<loads>
+	</loads>
+</PowerGrid>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PowerGrid name="Новая схема" voltageA="240" voltageB="240" voltageC="240" totalLoadChange="1" totalKzapChange="0" totalDays="30">
+	<lines>
+		<PGLine id="line_source" startNode="0" finishNode="node_vmav-ghi6-2aiw" length="0.001" intersection="1000" intersectionNeutral="1000" inductiveResistance="0.1" />
+		<PGLine id="line_ipiq-q3nn-l6jj" startNode="node_vmav-ghi6-2aiw" finishNode="node_h68r-fg9a-ikeg" length="174" intersection="95" intersectionNeutral="50" inductiveResistance="0.1" />
+		<PGLine id="line_iisu-l5iu-5ihs" startNode="node_h68r-fg9a-ikeg" finishNode="node_3ncr-areu-qbep" length="20" intersection="95" intersectionNeutral="50" inductiveResistance="0.1" />
+		<PGLine id="line_cbxv-5bma-3st7" startNode="node_soj6-whvd-mc9r" finishNode="node_3ncr-areu-qbep" length="21" intersection="95" intersectionNeutral="50" inductiveResistance="0.1" />
+		<PGLine id="line_gsxo-nenq-lc1c" startNode="node_txnb-ngil-bq95" finishNode="node_soj6-whvd-mc9r" length="12" intersection="70" intersectionNeutral="50" inductiveResistance="0.1" />
+	</lines>
+	<loads>
+		<PGLoad id="load_9tkr-lqpx-b9tb" placement="5A" node="node_3ncr-areu-qbep" descentLength="12" intersection="16" power="0.029" cosfi="0.85" Kzap="0.5" phase="0" />
+		<PGLoad id="load_kxuc-m9fn-93st" placement="4A" node="node_3ncr-areu-qbep" descentLength="5" intersection="16" power="0.002" cosfi="0.85" Kzap="0.5" phase="0" />
+		<PGLoad id="load_8ozn-41x9-th9s" placement="7A" node="node_soj6-whvd-mc9r" descentLength="14" intersection="16" power="0.001" cosfi="0.85" Kzap="0.5" phase="0" />
+		<PGLoad id="load_nfbq-biwg-n9g5" placement="9A" node="node_txnb-ngil-bq95" descentLength="0.01" intersection="50" power="0.13" cosfi="0.85" Kzap="0.5" phase="0" />
+		<PGLoad id="load_emlg-ja7n-ujdh" placement="11A" node="node_txnb-ngil-bq95" descentLength="10" intersection="16" power="0.029" cosfi="0.85" Kzap="0.5" phase="0" />
+		<PGLoad id="load_52m3-w8j4-zktw" placement="10A" node="node_txnb-ngil-bq95" descentLength="15" intersection="50" power="0.002" cosfi="0.85" Kzap="0.5" phase="0" />
+		<PGLoad id="load_kazb-jitr-wial" placement="4B" node="node_3ncr-areu-qbep" descentLength="5" intersection="16" power="0.002" cosfi="0.85" Kzap="0.5" phase="1" />
+		<PGLoad id="load_9keu-a5ht-jdjk" placement="4C" node="node_3ncr-areu-qbep" descentLength="5" intersection="16" power="0.002" cosfi="0.85" Kzap="0.5" phase="2" />
+		<PGLoad id="load_m2jj-srhn-7rz9" placement="5C" node="node_3ncr-areu-qbep" descentLength="12" intersection="16" power="0.029" cosfi="0.85" Kzap="0.5" phase="2" />
+		<PGLoad id="load_f8ck-nbik-klj8" placement="5B" node="node_3ncr-areu-qbep" descentLength="12" intersection="16" power="0.029" cosfi="0.85" Kzap="0.5" phase="1" />
+		<PGLoad id="load_z1vp-krbg-dlfk" placement="7C" node="node_soj6-whvd-mc9r" descentLength="14" intersection="16" power="0.001" cosfi="0.85" Kzap="0.5" phase="2" />
+		<PGLoad id="load_r8ka-m8dj-lmhi" placement="7B" node="node_soj6-whvd-mc9r" descentLength="14" intersection="16" power="0.001" cosfi="0.85" Kzap="0.5" phase="1" />
+		<PGLoad id="load_vcl8-ybno-6kt9" placement="" node="node_txnb-ngil-bq95" descentLength="10" intersection="16" power="0.029" cosfi="0.85" Kzap="0.5" phase="2" />
+		<PGLoad id="load_xsve-zdhg-jlae" placement="11B" node="node_txnb-ngil-bq95" descentLength="10" intersection="16" power="0.029" cosfi="0.85" Kzap="0.5" phase="1" />
+		<PGLoad id="load_s5e9-onrw-hats" placement="10C" node="node_txnb-ngil-bq95" descentLength="15" intersection="50" power="0.002" cosfi="0.85" Kzap="0.5" phase="2" />
+		<PGLoad id="load_ltp4-q6rb-o5pc" placement="10B" node="node_txnb-ngil-bq95" descentLength="15" intersection="50" power="0.002" cosfi="0.85" Kzap="0.5" phase="1" />
+		<PGLoad id="load_iqlq-mtbp-shcj" placement="" node="node_txnb-ngil-bq95" descentLength="0.01" intersection="50" power="0.13" cosfi="0.85" Kzap="0.5" phase="2" />
+		<PGLoad id="load_d8a9-jqxo-gzfc" placement="9B" node="node_txnb-ngil-bq95" descentLength="0.01" intersection="50" power="0.13" cosfi="0.85" Kzap="0.5" phase="1" />
+	</loads>
+</PowerGrid>

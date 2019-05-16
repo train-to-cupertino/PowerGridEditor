@@ -1,0 +1,407 @@
+button.tool_selected
+{
+	border: 1px solid blue;
+}
+
+.menu_button {
+	margin: 0 1px;
+	display: inline-block;
+}
+
+.panel_tools {
+	border: 1px solid #b8b8b8;
+	padding: 2px 1px;
+	margin: 2px 0;	
+
+	background-color: #f4f5f5; background-image: -webkit-gradient(linear, left top, left bottom, from(#f4f5f5), to(#efeded));
+	background-image: -webkit-linear-gradient(top, #fafafa, #efeded);
+	background-image: -moz-linear-gradient(top, #fafafa, #efeded);
+	background-image: -ms-linear-gradient(top, #fafafa, #efeded);
+	background-image: -o-linear-gradient(top, #fafafa, #efeded);
+	background-image: linear-gradient(to bottom, #fafafa, #efeded);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#fafafa, endColorstr=#efeded);	
+}
+
+.tool_icon {
+	display: inline-block;
+	margin-top: 4px;
+	height: 16px;
+	width: 16px;
+	background-repeat : no-repeat;
+}
+
+.icon-pointer {
+	background-image: url("/img/editor_tools/pointer.png");
+}
+
+.icon-selection {
+	background-image: url("/img/editor_tools/selection.png");
+}
+
+.icon-node {
+	background-image: url("/img/editor_tools/node__1.png");
+}
+
+.icon-line {
+	background-image: url("/img/editor_tools/line.png");
+}
+
+.icon-load {
+	background-image: url("/img/editor_tools/load.png");
+}
+
+.icon-source {
+	background-image: url("/img/editor_tools/source.png");
+}
+
+.icon-rect {
+	background-image: url("/img/editor_tools/rect.png");
+}
+
+.icon-ellipse {
+	background-image: url("/img/editor_tools/ellipse.png");
+}
+
+.icon-polyline {
+	background-image: url("/img/editor_tools/polyline.png");
+}
+
+.icon-label {
+	background-image: url("/img/editor_tools/label.png");
+}
+
+.icon-undo {
+	background-image: url("/img/editor_tools/undo.png");
+}
+
+.icon-redo {
+	background-image: url("/img/editor_tools/redo.png");
+}
+
+.icon-save {
+	background-image: url("/img/editor_tools/save.png");
+}
+
+.icon-scale {
+	background-image: url("/img/editor_tools/scale.png");
+}
+
+.icon-calc {
+	background-image: url("/img/editor_tools/calc.png");
+	/*margin-left: 0px;*/
+}
+
+.icon-question {
+	background-image: url("/img/question.png");	
+	background-size: 16px;
+}
+
+.icon-export-visio {
+	background-image: url("/img/visio.png");
+	background-size: 16px;
+}
+
+.go_calc {
+	background: #feccb1; /* Old browsers */
+	background: -moz-linear-gradient(top, #feccb1 0%, #f17432 50%, #ea5507 51%, #fb955e 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feccb1', endColorstr='#fb955e',GradientType=0 ); /* IE6-9 */
+	
+	border-color: orange;
+}
+
+.divider_tools {
+	height: 28px;
+	width: 1px;
+	background-color: #b8b8b8;
+	margin: 2px 4px;
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+.scale_container {
+	display: inline-block;
+	height: 22px;
+}
+
+.scale_container > div {
+	display: inline-block;
+	vertical-align: bottom;
+	height: 23px;
+}
+
+.param_table {
+    border-collapse: collapse;	
+	table-layout: fixed;
+}
+
+.param_table tr { 
+    text-align: left;
+}
+
+.param_table td { 
+    padding: 1px;
+	word-break: break-all;
+	overflow: hidden;
+	width: 140px;
+	font-size: 12px;
+}
+
+.elem_id {
+	font-size: 10px;
+	display:inline-block;
+	font-style: italic;	
+}
+
+.elem_link {
+	cursor: pointer;
+	text-decoration: underline;
+	color: #337ab7;
+}
+
+.delete_elem_btn {
+	color: #ffffff;
+	background-color: #bb2222;
+	border-color: #bb4444;
+}
+
+.schema_list_item  {
+	width: 222px; 
+	vertical-align: top;
+	margin: 0 2px 5px 0; 
+	display: inline-block; 
+	border: 1px solid #d8d8d8; 
+	border-radius: 5px;
+	padding: 5px;
+}
+
+
+a.delete_schema {
+	color: #bb0000;
+}
+
+a.delete_folder {
+	color: #bb0000;
+}
+
+a.delete_schema:hover {
+	color: #e80000;
+	text-decoration: none;
+}
+
+a.delete_folder:hover {
+	color: #e80000;
+	text-decoration: none;
+}
+
+.schema_list_pagination {
+    display: block !important;
+    padding-left: 0;
+	margin: 20px auto;
+    border-radius: 4px;	
+	box-sizing: border-box;
+}
+
+input.schema_name {
+	font-size: 24px;
+	border: none;
+}
+
+ellipse.pgnode
+{
+	cursor: move;
+}
+
+ellipse.pglinevertex
+{
+	cursor: move;
+}
+
+.invisible
+{
+	display: none;
+}
+
+/* ------------ */
+
+.svg_select_points_lt{
+    cursor: nw-resize;
+}
+.svg_select_points_rt{
+    cursor: ne-resize;
+}
+.svg_select_points_rb{
+    cursor: se-resize;
+}
+.svg_select_points_lb{
+    cursor: sw-resize;
+}
+.svg_select_points_t{
+    cursor: n-resize;
+}
+.svg_select_points_r{
+    cursor: e-resize;
+}
+.svg_select_points_b{
+    cursor: s-resize;
+}
+.svg_select_points_l{
+    cursor: w-resize;
+}
+
+.svg_select_points_rot{
+    stroke-width:1;
+    stroke:black;
+    fill: #F9FFED;
+    cursor: move;
+}
+
+.svg_select_points_point{
+    cursor: move;
+}
+
+.svg_select_boundingRect{
+    stroke-width:1;
+    fill:white;
+    stroke-dasharray:10 10;
+    stroke:black;
+    stroke-opacity:0.8;
+    fill-opacity:0.1;
+    pointer-events:none; /* This ons is needed if you want to deselect or drag the shape*/
+}
+
+#outer_container {
+	border: 1px solid red;
+	width: 800px;
+	height: 600px;
+	overflow: scroll;
+	display: inline-block;
+	
+	padding: 3px;
+	border: 1px solid #d8d8d8;
+	border-radius: 3px;
+	
+	background-color: #ffffff;
+}
+
+.svg_container {
+	display: inline-block;
+	width: 800px;
+	height: 600px;
+	padding: 3px;
+	border: 1px solid #f8f8f8;
+	box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+	position: relative;
+}
+
+.calculation_result_table {
+    border: 1px solid black;
+    border-collapse: collapse;
+	font-size: 10px;
+	
+}
+
+.calculation_result_table tr { 
+    text-align: left; /* Выравнивание по левому краю */
+    padding: 2px; /* Поля вокруг содержимого ячеек */
+    border: 1px solid black !important; /* Граница вокруг ячеек */
+}
+
+.calculation_result_table td { 
+    padding: 2px; /* Поля вокруг содержимого ячеек */
+    border: 1px solid black !important; /* Граница вокруг ячеек */
+}
+
+.text_bold {
+	font-weight: 700;
+}
+
+.svg_container > svg {
+	background-image: url('data:image/bmp;base64,Qk12AQAAAAAAADYAAAAoAAAACgAAAAoAAAABABgAAAAAAEABAAAAAAAAAAAAAAAAAAAAAAAA+Pj4+Pj4+Pj4+Pj4+Pj4////////////////////AAD4+Pj4+Pj4+Pj4+Pj4+Pj///////////////////8AAPj4+Pj4+Pj4+Pj4+Pj4+P///////////////////wAA+Pj4+Pj4+Pj4+Pj4+Pj4////////////////////AAD4+Pj4+Pj4+Pj4+Pj4+Pj///////////////////8AAP////////////////////j4+Pj4+Pj4+Pj4+Pj4+AAA////////////////////+Pj4+Pj4+Pj4+Pj4+Pj4AAD////////////////////4+Pj4+Pj4+Pj4+Pj4+PgAAP////////////////////j4+Pj4+Pj4+Pj4+Pj4+AAA////////////////////+Pj4+Pj4+Pj4+Pj4+Pj4AAA=');
+}
+
+.block_close {
+	cursor: pointer;
+	margin-left: auto;
+	margin-right: 0;
+	margin-bottom: 2px;
+	width: 16px;
+	height: 16px;
+	background-image: url("/img/block_close.png");
+}
+
+.pgline_res {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 1;
+	background: rgba(224,224,224,0.9);
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	padding: 5px 10px;
+	border: 1px solid #333;
+	display: block;	
+	border-radius: 4px;
+}
+
+.pgload_res {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 1;
+	background: rgba(224,224,224,0.7);
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	padding: 5px 10px;
+	border: 1px solid #333;
+	display: block;	
+	border-radius: 4px;	
+}
+
+.view_only_tools div {
+	display: inline-block;
+}
+
+.fullscreen_enabled {
+	position: absolute;
+	top: 52px;
+}
+
+#_toggle_fullscreen {
+	border: 1px solid #888888;
+	background-color: #eeeeee;
+	padding: 5px;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	/*position: relative;*/
+	width: 20px;
+	height: 20px;
+	color: #ffffff;
+	display: inline-block;
+	z-index: 99999;
+}
+
+
+#param_container
+{
+	display: inline-block;
+	width: 300px;
+	height: 600px;
+	margin:0 0 0 10px;
+	background-color: rgba(0,0,0,0.03);
+	vertical-align: top;
+	padding: 2px;
+}
+
+.svg_select_points
+{
+	fill: rgba(0, 255, 0, 1.0);
+}
+
+.svg_select_boundingRect
+{
+    stroke-dasharray: none;
+    stroke: none;	
+	fill-opacity: 0.0;
+}

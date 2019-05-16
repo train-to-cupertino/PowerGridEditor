@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PowerGrid name="Фидер ТЕСТ-1" voltageA="240" voltageB="240" voltageC="240" totalLoadChange="1" totalKzapChange="0" totalDays="30">
+	<lines>
+		<PGLine id="line_source" startNode="0" finishNode="5bde8164fdbbda00df1ae7e6ddc822f8" length="0.001" intersection="1000" intersectionNeutral="1000" inductiveResistance="0.1" />
+		<PGLine id="0482a7b9cfe0f821f56981397fe2b097" startNode="7a27deff63067ebde0bae6405f3ae427" finishNode="e8ecce60269d97a08d7fa56190cf3d34" length="43" intersection="50" intersectionNeutral="50" inductiveResistance="0.3" />
+		<PGLine id="58536aefe7495b59e2611c0df9049a3e" startNode="e8ecce60269d97a08d7fa56190cf3d34" finishNode="6d47de40c00efbf2bbaf03cbe116d37c" length="32" intersection="35" intersectionNeutral="35" inductiveResistance="0.3" />
+		<PGLine id="461583b9a61427d9551c94148b5324c8" startNode="6d47de40c00efbf2bbaf03cbe116d37c" finishNode="a41a11d3d8dc16f64fa65bc98fbe0610" length="27" intersection="35" intersectionNeutral="35" inductiveResistance="0.3" />
+		<PGLine id="e93795ce6ec1f3775bb418b3b20ed259" startNode="a41a11d3d8dc16f64fa65bc98fbe0610" finishNode="406344c3a94e4d329588fbb4d388e67b" length="31" intersection="35" intersectionNeutral="35" inductiveResistance="0.3" />
+		<PGLine id="ea3a7f346f09f24377f259233ebebb69" startNode="406344c3a94e4d329588fbb4d388e67b" finishNode="95fbd6e2aa86a4b49ffa1bd44079071a" length="35" intersection="35" intersectionNeutral="35" inductiveResistance="0.3" />
+		<PGLine id="4571d42b2daaf3a527fd99e2b0b7c80b" startNode="95fbd6e2aa86a4b49ffa1bd44079071a" finishNode="db130decd9f48898d4ede66dae271815" length="41" intersection="35" intersectionNeutral="35" inductiveResistance="0.3" />
+		<PGLine id="cafe2c333193e732b8490dd8aaab1de7" startNode="6d47de40c00efbf2bbaf03cbe116d37c" finishNode="7856017a9a99d6fc9c61fe2ae168205c" length="27" intersection="70" intersectionNeutral="35" inductiveResistance="0.3" />
+		<PGLine id="71c85224f5019d3ab9261f9150dda26d" startNode="7856017a9a99d6fc9c61fe2ae168205c" finishNode="b500838b57adf6c8886106fc812346f1" length="25" intersection="70" intersectionNeutral="35" inductiveResistance="0.3" />
+		<PGLine id="bec369f3a2d961a0fe3b3a4be4d401bc" startNode="b500838b57adf6c8886106fc812346f1" finishNode="37bb3839c9c15fc12729107b950cc9d3" length="11" intersection="70" intersectionNeutral="35" inductiveResistance="0.3" />
+		<PGLine id="85a7448afd7ad28851b449bb37700eb8" startNode="37bb3839c9c15fc12729107b950cc9d3" finishNode="570d4d67ee76cca1e857166edbd3e732" length="30" intersection="70" intersectionNeutral="35" inductiveResistance="0.3" />
+		<PGLine id="f6c298b8bbc84115dd1579364b791f84" startNode="570d4d67ee76cca1e857166edbd3e732" finishNode="746e84944ae48b146f446a9b4ac720c0" length="28" intersection="50" intersectionNeutral="50" inductiveResistance="0.3" />
+		<PGLine id="fd3c6613e2c411fe17e5678157aaa4b3" startNode="570d4d67ee76cca1e857166edbd3e732" finishNode="a9627a3218e787e4f55bdfa844799966" length="17" intersection="50" intersectionNeutral="50" inductiveResistance="0.3" />
+		<PGLine id="ed71c251be36c4cbbe403eb743eb7214" startNode="570d4d67ee76cca1e857166edbd3e732" finishNode="e11d2a7e983dde0a1ce1b4440d74c99d" length="32" intersection="50" intersectionNeutral="50" inductiveResistance="0.3" />
+		<PGLine id="3ad0b88442765b46876409c13c12fad6" startNode="746e84944ae48b146f446a9b4ac720c0" finishNode="57b8a8c89261f5e7227c88cf60bd0de3" length="29" intersection="50" intersectionNeutral="50" inductiveResistance="0.3" />
+		<PGLine id="b8cb438c1084ee498e1a16e51df5eb54" startNode="57b8a8c89261f5e7227c88cf60bd0de3" finishNode="51d179a84b382a4da8b641f0102e814c" length="33" intersection="50" intersectionNeutral="50" inductiveResistance="0.3" />
+		<PGLine id="238538680decc473bd8a893a6a34aba0" startNode="51d179a84b382a4da8b641f0102e814c" finishNode="4fb191cda1fbc96b948e02d63dae5f6a" length="27" intersection="50" intersectionNeutral="50" inductiveResistance="0.3" />
+		<PGLine id="739f51f9f05dbcf5f3cd59982b54b672" startNode="4fb191cda1fbc96b948e02d63dae5f6a" finishNode="e66b9429d4ff12180c8ec91c2bb72bae" length="28" intersection="50" intersectionNeutral="50" inductiveResistance="0.3" />
+		<PGLine id="1489f7dbd95567016094af9a3878d18a" startNode="a9627a3218e787e4f55bdfa844799966" finishNode="798bde3a81fd88ec39f9ffb322a735a3" length="23" intersection="50" intersectionNeutral="50" inductiveResistance="0.3" />
+		<PGLine id="cbf047dc2a58c06051ca1ddd7fc7cdc7" startNode="798bde3a81fd88ec39f9ffb322a735a3" finishNode="8b61f9165e93bb876080249f84cd06d8" length="28" intersection="50" intersectionNeutral="50" inductiveResistance="0.3" />
+		<PGLine id="0fc15a265f5a7f290ccaf08736995ee8" startNode="8b61f9165e93bb876080249f84cd06d8" finishNode="75f89b8c2db7ae987ae037f36a2fbd55" length="25" intersection="50" intersectionNeutral="50" inductiveResistance="0.3" />
+		<PGLine id="a121309cd1b7c2201ad1aea76d689e27" startNode="75f89b8c2db7ae987ae037f36a2fbd55" finishNode="af2d3ee416b4f4035e864bf0f67b2ec2" length="41" intersection="35" intersectionNeutral="35" inductiveResistance="0.3" />
+		<PGLine id="2c7ff88acc3c38a054ec56383d5ea78f" startNode="af2d3ee416b4f4035e864bf0f67b2ec2" finishNode="58156a183a126eda61e7685e94fc4527" length="37" intersection="35" intersectionNeutral="35" inductiveResistance="0.3" />
+		<PGLine id="bccdea274d0fc052fe06f75ce18c16d7" startNode="58156a183a126eda61e7685e94fc4527" finishNode="b86c5085723615ce93443a31cc7e5fa7" length="33" intersection="35" intersectionNeutral="35" inductiveResistance="0.3" />
+		<PGLine id="282357a7862f9e741a2c3ba16f0c4eff" startNode="75f89b8c2db7ae987ae037f36a2fbd55" finishNode="2be55cc318c269c20356a9d0fe963945" length="9" intersection="50" intersectionNeutral="50" inductiveResistance="0.3" />
+		<PGLine id="369a88fc08cb31015163c147f4d080ff" startNode="2be55cc318c269c20356a9d0fe963945" finishNode="ef10fae1cccc15c1a682b492ca0bc91c" length="33" intersection="50" intersectionNeutral="50" inductiveResistance="0.3" />
+		<PGLine id="a49264e1f8c9f3266c7f2a003a6f880c" startNode="ef10fae1cccc15c1a682b492ca0bc91c" finishNode="1578106e0865feb9efc3f5b521e6457b" length="28" intersection="50" intersectionNeutral="50" inductiveResistance="0.3" />
+		<PGLine id="4221d27fae015aa22fd9db067246353b" startNode="e11d2a7e983dde0a1ce1b4440d74c99d" finishNode="0195d815a2a6c5669329b0cd876d4695" length="29" intersection="50" intersectionNeutral="50" inductiveResistance="0.3" />
+		<PGLine id="cb9ab497d44a29b7ec6bb24a604ca13e" startNode="0195d815a2a6c5669329b0cd876d4695" finishNode="7aad5e6c3400db8433ccfad208c4dbc5" length="30" intersection="50" intersectionNeutral="50" inductiveResistance="0.3" />
+		<PGLine id="4a1d2db465f2010a90a8d324f1b7967e" startNode="7aad5e6c3400db8433ccfad208c4dbc5" finishNode="d322cf2e0e5674d27771db80388e7ef8" length="29" intersection="50" intersectionNeutral="50" inductiveResistance="0.3" />
+		<PGLine id="0b967a1bb29ff4f06169e60561a1edb7" startNode="d322cf2e0e5674d27771db80388e7ef8" finishNode="9bf5c88c50d97d1595ab8e2d6dc4c76c" length="28" intersection="50" intersectionNeutral="50" inductiveResistance="0.3" />
+		<PGLine id="886d9db81171468411ce92e2347b39a3" startNode="5bde8164fdbbda00df1ae7e6ddc822f8" finishNode="7a27deff63067ebde0bae6405f3ae427" length="6" intersection="150" intersectionNeutral="70" inductiveResistance="0.3" />
+		<PGLine id="line_edjs-jeaq-bhf9" startNode="node_vf6a-7sfy-4bx7" finishNode="node_aocu-sq9k-kn7b" length="15" intersection="16" intersectionNeutral="16" inductiveResistance="0.1" />
+		<PGLine id="line_hplj-9s97-mkmg" startNode="db130decd9f48898d4ede66dae271815" finishNode="node_vf6a-7sfy-4bx7" length="15" intersection="16" intersectionNeutral="16" inductiveResistance="0.1" />
+	</lines>
+	<loads>
+		<PGLoad id="eee71c1d2d2fb6c74a776c2b4cb039a4" placement="" node="e8ecce60269d97a08d7fa56190cf3d34" descentLength="10" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="1" />
+		<PGLoad id="7a59cd4a8cfe14d5884d25accea2a4a7" placement="" node="e8ecce60269d97a08d7fa56190cf3d34" descentLength="4" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="0" />
+		<PGLoad id="7e5af8ad2e369650df5055f9d3965a81" placement="" node="6d47de40c00efbf2bbaf03cbe116d37c" descentLength="11" intersection="6" power="2" cosfi="0.8" Kzap="0.5" phase="1" />
+		<PGLoad id="ff883825c804f2b79175d5914258c812" placement="" node="6d47de40c00efbf2bbaf03cbe116d37c" descentLength="16" intersection="6" power="2" cosfi="0.8" Kzap="0.5" phase="0" />
+		<PGLoad id="4ad348049932699d5acf4a9f40317d5b" placement="" node="a41a11d3d8dc16f64fa65bc98fbe0610" descentLength="9" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="1" />
+		<PGLoad id="e44830ec13e10435ff39ab7452dbcc33" placement="" node="a41a11d3d8dc16f64fa65bc98fbe0610" descentLength="20" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="1" />
+		<PGLoad id="81693aeb12beb70ec02ce9a11666eaf3" placement="" node="a41a11d3d8dc16f64fa65bc98fbe0610" descentLength="12" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="1" />
+		<PGLoad id="30806b24a0dd8d9be41b7752fa5a5c25" placement="" node="a41a11d3d8dc16f64fa65bc98fbe0610" descentLength="25" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="0" />
+		<PGLoad id="54b5e4587f595fffa430eec3015ec3b9" placement="" node="a41a11d3d8dc16f64fa65bc98fbe0610" descentLength="18" intersection="6" power="2" cosfi="0.8" Kzap="0.5" phase="2" />
+		<PGLoad id="326328b4e2d8e6c85a6ca50124987e34" placement="" node="406344c3a94e4d329588fbb4d388e67b" descentLength="13" intersection="10" power="2" cosfi="0.8" Kzap="0.5" phase="0" />
+		<PGLoad id="7918ecd43670a8bb0135bfe83b691f20" placement="" node="406344c3a94e4d329588fbb4d388e67b" descentLength="13" intersection="6" power="2" cosfi="0.8" Kzap="0.5" phase="2" />
+		<PGLoad id="459241ea32febe04f07e9087c67b630b" placement="" node="406344c3a94e4d329588fbb4d388e67b" descentLength="16" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="0" />
+		<PGLoad id="3163a69122be7801b76d959fcb0b4e6a" placement="" node="406344c3a94e4d329588fbb4d388e67b" descentLength="8" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="1" />
+		<PGLoad id="4e6819693b81b21a705ea4a2d0dce4f1" placement="" node="95fbd6e2aa86a4b49ffa1bd44079071a" descentLength="9" intersection="6" power="2" cosfi="0.8" Kzap="0.5" phase="2" />
+		<PGLoad id="cb31372befd1ae3b489db7251ab63409" placement="" node="95fbd6e2aa86a4b49ffa1bd44079071a" descentLength="12" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="2" />
+		<PGLoad id="ee565a977a98bd87cc73f7c2828a9b43" placement="" node="95fbd6e2aa86a4b49ffa1bd44079071a" descentLength="20" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="1" />
+		<PGLoad id="de991456b6c1229567fbe99e4f7e864a" placement="" node="95fbd6e2aa86a4b49ffa1bd44079071a" descentLength="6" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="1" />
+		<PGLoad id="2728dffd6265db81282c11cc5ba3d1f3" placement="" node="95fbd6e2aa86a4b49ffa1bd44079071a" descentLength="7" intersection="10" power="2" cosfi="0.8" Kzap="0.5" phase="0" />
+		<PGLoad id="b110e2c4b17a868171b5d74359e65947" placement="" node="db130decd9f48898d4ede66dae271815" descentLength="15" intersection="6" power="2" cosfi="0.8" Kzap="0.5" phase="0" />
+		<PGLoad id="174d34a9a6b27bab7faefe4fead8362b" placement="" node="db130decd9f48898d4ede66dae271815" descentLength="23" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="2" />
+		<PGLoad id="2d42c0eab2b2509482261fb1184bb85a" placement="" node="db130decd9f48898d4ede66dae271815" descentLength="16" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="1" />
+		<PGLoad id="4c2aabf63afe0af23722ba2098a8f4cd" placement="" node="7856017a9a99d6fc9c61fe2ae168205c" descentLength="9" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="0" />
+		<PGLoad id="2184c2905236ef00fcad50b75e521175" placement="" node="b500838b57adf6c8886106fc812346f1" descentLength="22" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="1" />
+		<PGLoad id="c3eeb5fff7c20d22bbddab7f0acc1ede" placement="" node="37bb3839c9c15fc12729107b950cc9d3" descentLength="9" intersection="10" power="2" cosfi="0.8" Kzap="0.5" phase="2" />
+		<PGLoad id="a5379af8bb4c636aee0d12b62abfedaa" placement="" node="570d4d67ee76cca1e857166edbd3e732" descentLength="30" intersection="10" power="2" cosfi="0.8" Kzap="0.5" phase="1" />
+		<PGLoad id="850d1a0192e5dcbd0ec3f9379cbf05de" placement="" node="570d4d67ee76cca1e857166edbd3e732" descentLength="15" intersection="10" power="2" cosfi="0.8" Kzap="0.5" phase="0" />
+		<PGLoad id="ebfa1cf493be76aa4f8ae0a9532fe269" placement="" node="e11d2a7e983dde0a1ce1b4440d74c99d" descentLength="24" intersection="10" power="2" cosfi="0.8" Kzap="0.5" phase="0" />
+		<PGLoad id="01084a4e3c14112de696be3835e0b7e8" placement="" node="e11d2a7e983dde0a1ce1b4440d74c99d" descentLength="13" intersection="10" power="2" cosfi="0.8" Kzap="0.5" phase="2" />
+		<PGLoad id="e8052b660bc4baab31f3dc17c4b01b0c" placement="" node="0195d815a2a6c5669329b0cd876d4695" descentLength="9" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="1" />
+		<PGLoad id="0173a53a8fe2c5eca881a4b07658a9c1" placement="" node="0195d815a2a6c5669329b0cd876d4695" descentLength="24" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="0" />
+		<PGLoad id="758683a68751981168ca6eca6462ace3" placement="" node="0195d815a2a6c5669329b0cd876d4695" descentLength="35" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="1" />
+		<PGLoad id="9b6a5b4af9a8c36e0f794d64a5be41c1" placement="" node="0195d815a2a6c5669329b0cd876d4695" descentLength="9" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="2" />
+		<PGLoad id="4407f7ed3bb6fbdd6b5c2bde51688761" placement="" node="7aad5e6c3400db8433ccfad208c4dbc5" descentLength="13" intersection="6" power="2" cosfi="0.8" Kzap="0.5" phase="2" />
+		<PGLoad id="f6941b1e5aae4ca11ea1d723d3c6bc18" placement="" node="7aad5e6c3400db8433ccfad208c4dbc5" descentLength="11" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="1" />
+		<PGLoad id="d3ea10acf73fee257af9d937e4329342" placement="" node="7aad5e6c3400db8433ccfad208c4dbc5" descentLength="13" intersection="10" power="2" cosfi="0.8" Kzap="0.5" phase="2" />
+		<PGLoad id="f454a13b8bca659e20c7d6016be12d5f" placement="" node="7aad5e6c3400db8433ccfad208c4dbc5" descentLength="16" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="0" />
+		<PGLoad id="97ab8f0e9e223b17c9f2f6e00559aa9e" placement="" node="d322cf2e0e5674d27771db80388e7ef8" descentLength="17" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="0" />
+		<PGLoad id="ba8bef5556c7074ba997a15070259f94" placement="" node="d322cf2e0e5674d27771db80388e7ef8" descentLength="9" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="1" />
+		<PGLoad id="ecce325a4e0bc15ba4c83ff6e0c692b4" placement="" node="d322cf2e0e5674d27771db80388e7ef8" descentLength="23" intersection="6" power="2" cosfi="0.8" Kzap="0.5" phase="0" />
+		<PGLoad id="e7254cd28e5e4ace879badfad08990c7" placement="" node="d322cf2e0e5674d27771db80388e7ef8" descentLength="8" intersection="10" power="2" cosfi="0.8" Kzap="0.5" phase="2" />
+		<PGLoad id="69bdd537fb87cf50fad5369fe474f17e" placement="" node="d322cf2e0e5674d27771db80388e7ef8" descentLength="27" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="1" />
+		<PGLoad id="a288df36d5cc7e0bf759dcd7abc04f43" placement="" node="d322cf2e0e5674d27771db80388e7ef8" descentLength="9" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="2" />
+		<PGLoad id="82c90b77b6d97da1d8212ea2d0594773" placement="" node="d322cf2e0e5674d27771db80388e7ef8" descentLength="30" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="1" />
+		<PGLoad id="765e0cc0877edbc8ec86656c3c57287a" placement="" node="d322cf2e0e5674d27771db80388e7ef8" descentLength="12" intersection="25" power="2" cosfi="0.8" Kzap="0.5" phase="0" />
+		<PGLoad id="c9885daa9fe044734a2ba9f083db6d15" placement="" node="9bf5c88c50d97d1595ab8e2d6dc4c76c" descentLength="19" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="0" />
+		<PGLoad id="4ad2f5e28c353ebe72d6f1358ec4d584" placement="" node="9bf5c88c50d97d1595ab8e2d6dc4c76c" descentLength="9" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="1" />
+		<PGLoad id="342c40acab9377089529206ef074a1ce" placement="" node="9bf5c88c50d97d1595ab8e2d6dc4c76c" descentLength="9" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="2" />
+		<PGLoad id="4229a166e628d560fff6e8cbd726527a" placement="" node="798bde3a81fd88ec39f9ffb322a735a3" descentLength="15" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="0" />
+		<PGLoad id="0484f8b7d6fe0623886e7a373df698bf" placement="" node="798bde3a81fd88ec39f9ffb322a735a3" descentLength="16" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="2" />
+		<PGLoad id="ded61ab247c2ddeabe1e6b79e11d17a2" placement="" node="798bde3a81fd88ec39f9ffb322a735a3" descentLength="9" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="1" />
+		<PGLoad id="6e4f4c0ca3697d1e9cc60b74a37611d2" placement="" node="8b61f9165e93bb876080249f84cd06d8" descentLength="19" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="2" />
+		<PGLoad id="d80ec0ecb8b684e32c10ac6ed9bc9fa1" placement="" node="75f89b8c2db7ae987ae037f36a2fbd55" descentLength="25" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="1" />
+		<PGLoad id="2967ad06798267f3037e3c413f951b6e" placement="" node="75f89b8c2db7ae987ae037f36a2fbd55" descentLength="6" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="0" />
+		<PGLoad id="42558241205a773cc4bf44133835b867" placement="" node="af2d3ee416b4f4035e864bf0f67b2ec2" descentLength="6" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="0" />
+		<PGLoad id="90db81624ca4e76b852770c9dc60805f" placement="" node="af2d3ee416b4f4035e864bf0f67b2ec2" descentLength="11" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="1" />
+		<PGLoad id="9231b916b1781cfc36ec3f82241b1b0d" placement="" node="58156a183a126eda61e7685e94fc4527" descentLength="9" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="0" />
+		<PGLoad id="c25a05b45b4d4df8ba62078aeb5dd8f9" placement="" node="58156a183a126eda61e7685e94fc4527" descentLength="38" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="1" />
+		<PGLoad id="049ea56051cb77429d71f03e169c013a" placement="" node="58156a183a126eda61e7685e94fc4527" descentLength="11" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="2" />
+		<PGLoad id="278aea4ee389392310b55162cb750345" placement="" node="58156a183a126eda61e7685e94fc4527" descentLength="11" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="1" />
+		<PGLoad id="34a54ee70230f411fb686ad22dfb3c86" placement="" node="58156a183a126eda61e7685e94fc4527" descentLength="8" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="1" />
+		<PGLoad id="9b87a3b0f5f5c1ce2e23ba1bdb20d015" placement="" node="58156a183a126eda61e7685e94fc4527" descentLength="8" intersection="10" power="2" cosfi="0.8" Kzap="0.5" phase="0" />
+		<PGLoad id="f1804d848f089ca3eb7b938f17e0040f" placement="" node="b86c5085723615ce93443a31cc7e5fa7" descentLength="13" intersection="10" power="2" cosfi="0.8" Kzap="0.5" phase="1" />
+		<PGLoad id="a65a5cbcacbc571597468f06b232b449" placement="" node="b86c5085723615ce93443a31cc7e5fa7" descentLength="12" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="2" />
+		<PGLoad id="6f5bef28acd8596cfd429573c256bdfa" placement="" node="b86c5085723615ce93443a31cc7e5fa7" descentLength="10" intersection="10" power="2" cosfi="0.8" Kzap="0.5" phase="0" />
+		<PGLoad id="ebab464b441b2c218c42a375bc8e60ae" placement="" node="b86c5085723615ce93443a31cc7e5fa7" descentLength="9" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="1" />
+		<PGLoad id="1e4e50c0e86607a7e02f0cf028f7235d" placement="" node="b86c5085723615ce93443a31cc7e5fa7" descentLength="14" intersection="10" power="2" cosfi="0.8" Kzap="0.5" phase="2" />
+		<PGLoad id="316014ccb32f7572f35bc71f62dd28f8" placement="" node="2be55cc318c269c20356a9d0fe963945" descentLength="25" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="1" />
+		<PGLoad id="c3cd89f8f23b870ec17a55d71c40abf8" placement="" node="2be55cc318c269c20356a9d0fe963945" descentLength="10" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="0" />
+		<PGLoad id="cb58451efef6d8b124e18df58e486db1" placement="" node="1578106e0865feb9efc3f5b521e6457b" descentLength="25" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="2" />
+		<PGLoad id="d94f16b814fd337ca2260b3c194fac23" placement="" node="1578106e0865feb9efc3f5b521e6457b" descentLength="19" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="1" />
+		<PGLoad id="9002711004360fb93aaa5c2089cfd0bb" placement="" node="1578106e0865feb9efc3f5b521e6457b" descentLength="17" intersection="10" power="2" cosfi="0.8" Kzap="0.5" phase="0" />
+		<PGLoad id="c52acfdf04b1394ac50c232a2ad87ba3" placement="" node="746e84944ae48b146f446a9b4ac720c0" descentLength="23" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="1" />
+		<PGLoad id="0d118058132ed2a050df20fbdf853561" placement="" node="746e84944ae48b146f446a9b4ac720c0" descentLength="7" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="0" />
+		<PGLoad id="3ee1127786eff8d497127cb9d81acc53" placement="" node="746e84944ae48b146f446a9b4ac720c0" descentLength="26" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="2" />
+		<PGLoad id="aed273d4dcca2ddd59a61dc62bd3a3ce" placement="" node="57b8a8c89261f5e7227c88cf60bd0de3" descentLength="15" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="2" />
+		<PGLoad id="f5879ab4ff7a016675579b762ba1362c" placement="" node="57b8a8c89261f5e7227c88cf60bd0de3" descentLength="22" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="2" />
+		<PGLoad id="c448121609eda3fe298361f83f921b62" placement="" node="57b8a8c89261f5e7227c88cf60bd0de3" descentLength="27" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="1" />
+		<PGLoad id="310ec46d4bcbb9b55b9b29432543bd7a" placement="" node="57b8a8c89261f5e7227c88cf60bd0de3" descentLength="17" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="0" />
+		<PGLoad id="31ebe501a03059f93d6a39eedd2ad6fd" placement="" node="57b8a8c89261f5e7227c88cf60bd0de3" descentLength="17" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="1" />
+		<PGLoad id="8440db6e029ef239d78d4d517b9b8ad9" placement="" node="57b8a8c89261f5e7227c88cf60bd0de3" descentLength="19" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="0" />
+		<PGLoad id="c77de7763fcbf640cc68b94c438c0c81" placement="" node="57b8a8c89261f5e7227c88cf60bd0de3" descentLength="25" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="2" />
+		<PGLoad id="ab423704113c3a1a1529ad45095f77c7" placement="" node="51d179a84b382a4da8b641f0102e814c" descentLength="23" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="1" />
+		<PGLoad id="a770c62ca2c06087e074fb1de7a595eb" placement="" node="51d179a84b382a4da8b641f0102e814c" descentLength="10" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="2" />
+		<PGLoad id="0c6310a17db84e6efa42c1c51852bd88" placement="" node="51d179a84b382a4da8b641f0102e814c" descentLength="19" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="0" />
+		<PGLoad id="c1f1939c054a74153af872f7a6a407c0" placement="" node="4fb191cda1fbc96b948e02d63dae5f6a" descentLength="16" intersection="10" power="2" cosfi="0.8" Kzap="0.5" phase="1" />
+		<PGLoad id="1d84a9e5c68857c9facee734b4bf1a59" placement="" node="4fb191cda1fbc96b948e02d63dae5f6a" descentLength="9" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="0" />
+		<PGLoad id="7ea77fcb418aa60dc868734830e6f4b4" placement="" node="4fb191cda1fbc96b948e02d63dae5f6a" descentLength="18" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="1" />
+		<PGLoad id="867689b42c08dc3436e6a1511ee7f040" placement="" node="4fb191cda1fbc96b948e02d63dae5f6a" descentLength="18" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="1" />
+		<PGLoad id="651b09795048ee97ed68e7abf2d75d1b" placement="" node="4fb191cda1fbc96b948e02d63dae5f6a" descentLength="12" intersection="10" power="2" cosfi="0.8" Kzap="0.5" phase="2" />
+		<PGLoad id="7eda325058f5d267371ad537e9a54e5c" placement="" node="e66b9429d4ff12180c8ec91c2bb72bae" descentLength="22" intersection="16" power="2" cosfi="0.8" Kzap="0.5" phase="0" />
+	</loads>
+</PowerGrid>
